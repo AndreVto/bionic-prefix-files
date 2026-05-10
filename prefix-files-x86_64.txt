@@ -1,0 +1,452 @@
+d .wine
+f .wine/.update-timestamp
+d .wine/dosdevices
+f .wine/dosdevices/c:
+f .wine/dosdevices/z:
+d .wine/drive_c
+d .wine/drive_c/Program Files
+d .wine/drive_c/Program Files/Common Files
+d .wine/drive_c/Program Files/Common Files/Microsoft Shared
+d .wine/drive_c/Program Files/Common Files/Microsoft Shared/TextConv
+d .wine/drive_c/Program Files/Common Files/System
+d .wine/drive_c/Program Files/Common Files/System/ADO
+f .wine/drive_c/Program Files/Common Files/System/ADO/msado15.dll
+d .wine/drive_c/Program Files/Common Files/System/OLE DB
+f .wine/drive_c/Program Files/Common Files/System/OLE DB/msdaps.dll
+f .wine/drive_c/Program Files/Common Files/System/OLE DB/msdasql.dll
+f .wine/drive_c/Program Files/Common Files/System/OLE DB/oledb32.dll
+d .wine/drive_c/Program Files/Internet Explorer
+f .wine/drive_c/Program Files/Internet Explorer/iexplore.exe
+d .wine/drive_c/Program Files/Windows Media Player
+f .wine/drive_c/Program Files/Windows Media Player/wmplayer.exe
+d .wine/drive_c/Program Files/Windows NT
+d .wine/drive_c/Program Files/Windows NT/Accessories
+f .wine/drive_c/Program Files/Windows NT/Accessories/wordpad.exe
+d .wine/drive_c/Program Files (x86)
+d .wine/drive_c/Program Files (x86)/Common Files
+d .wine/drive_c/Program Files (x86)/Common Files/System
+d .wine/drive_c/Program Files (x86)/Common Files/System/ADO
+f .wine/drive_c/Program Files (x86)/Common Files/System/ADO/msado15.dll
+d .wine/drive_c/Program Files (x86)/Common Files/System/OLE DB
+f .wine/drive_c/Program Files (x86)/Common Files/System/OLE DB/msdaps.dll
+f .wine/drive_c/Program Files (x86)/Common Files/System/OLE DB/msdasql.dll
+f .wine/drive_c/Program Files (x86)/Common Files/System/OLE DB/oledb32.dll
+d .wine/drive_c/Program Files (x86)/Internet Explorer
+f .wine/drive_c/Program Files (x86)/Internet Explorer/iexplore.exe
+d .wine/drive_c/Program Files (x86)/Windows Media Player
+f .wine/drive_c/Program Files (x86)/Windows Media Player/wmplayer.exe
+d .wine/drive_c/Program Files (x86)/Windows NT
+d .wine/drive_c/Program Files (x86)/Windows NT/Accessories
+f .wine/drive_c/Program Files (x86)/Windows NT/Accessories/wordpad.exe
+d .wine/drive_c/ProgramData
+d .wine/drive_c/ProgramData/Microsoft
+d .wine/drive_c/ProgramData/Microsoft/Windows
+d .wine/drive_c/ProgramData/Microsoft/Windows/Start Menu
+d .wine/drive_c/ProgramData/Microsoft/Windows/Start Menu/Programs
+d .wine/drive_c/ProgramData/Microsoft/Windows/Start Menu/Programs/Administrative Tools
+d .wine/drive_c/ProgramData/Microsoft/Windows/Start Menu/Programs/StartUp
+d .wine/drive_c/ProgramData/Microsoft/Windows/Templates
+d .wine/drive_c/users
+d .wine/drive_c/users/Public
+d .wine/drive_c/users/Public/Desktop
+d .wine/drive_c/users/Public/Documents
+d .wine/drive_c/users/Public/Music
+d .wine/drive_c/users/Public/Pictures
+d .wine/drive_c/users/Public/Videos
+d .wine/drive_c/users/xuser
+d .wine/drive_c/users/xuser/AppData
+d .wine/drive_c/users/xuser/AppData/Local
+d .wine/drive_c/users/xuser/AppData/Local/Microsoft
+d .wine/drive_c/users/xuser/AppData/Local/Microsoft/Windows
+d .wine/drive_c/users/xuser/AppData/Local/Microsoft/Windows/History
+d .wine/drive_c/users/xuser/AppData/Local/Microsoft/Windows/INetCache
+d .wine/drive_c/users/xuser/AppData/Local/Microsoft/Windows/INetCookies
+d .wine/drive_c/users/xuser/AppData/Local/Temp
+d .wine/drive_c/users/xuser/AppData/LocalLow
+d .wine/drive_c/users/xuser/AppData/Roaming
+d .wine/drive_c/users/xuser/AppData/Roaming/Microsoft
+d .wine/drive_c/users/xuser/AppData/Roaming/Microsoft/Windows
+d .wine/drive_c/users/xuser/AppData/Roaming/Microsoft/Windows/Network Shortcuts
+d .wine/drive_c/users/xuser/AppData/Roaming/Microsoft/Windows/Printer Shortcuts
+d .wine/drive_c/users/xuser/AppData/Roaming/Microsoft/Windows/Recent
+d .wine/drive_c/users/xuser/AppData/Roaming/Microsoft/Windows/SendTo
+d .wine/drive_c/users/xuser/AppData/Roaming/Microsoft/Windows/Start Menu
+d .wine/drive_c/users/xuser/AppData/Roaming/Microsoft/Windows/Start Menu/Programs
+d .wine/drive_c/users/xuser/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Administrative Tools
+d .wine/drive_c/users/xuser/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/StartUp
+d .wine/drive_c/users/xuser/AppData/Roaming/Microsoft/Windows/Templates
+d .wine/drive_c/users/xuser/AppData/Roaming/Microsoft/Windows/Themes
+d .wine/drive_c/users/xuser/Contacts
+d .wine/drive_c/users/xuser/Desktop
+d .wine/drive_c/users/xuser/Documents
+d .wine/drive_c/users/xuser/Documents/Downloads
+d .wine/drive_c/users/xuser/Documents/Music
+d .wine/drive_c/users/xuser/Documents/Pictures
+d .wine/drive_c/users/xuser/Documents/Templates
+d .wine/drive_c/users/xuser/Documents/Videos
+d .wine/drive_c/users/xuser/Downloads
+d .wine/drive_c/users/xuser/Favorites
+d .wine/drive_c/users/xuser/Links
+d .wine/drive_c/users/xuser/Music
+d .wine/drive_c/users/xuser/Pictures
+d .wine/drive_c/users/xuser/Saved Games
+d .wine/drive_c/users/xuser/Searches
+d .wine/drive_c/users/xuser/Videos
+d .wine/drive_c/windows
+d .wine/drive_c/windows/command
+f .wine/drive_c/windows/command/start.exe
+f .wine/drive_c/windows/explorer.exe
+d .wine/drive_c/windows/Fonts
+d .wine/drive_c/windows/globalization
+d .wine/drive_c/windows/globalization/sorting
+f .wine/drive_c/windows/globalization/sorting/sortdefault.nls
+d .wine/drive_c/windows/help
+f .wine/drive_c/windows/hh.exe
+d .wine/drive_c/windows/inf
+f .wine/drive_c/windows/inf/input.inf
+f .wine/drive_c/windows/inf/input.pnf
+f .wine/drive_c/windows/inf/winebus.inf
+f .wine/drive_c/windows/inf/winebus.pnf
+f .wine/drive_c/windows/inf/winehid.inf
+f .wine/drive_c/windows/inf/winehid.pnf
+f .wine/drive_c/windows/inf/winexinput.inf
+d .wine/drive_c/windows/logs
+f .wine/drive_c/windows/notepad.exe
+d .wine/drive_c/windows/performance
+d .wine/drive_c/windows/performance/winsat
+d .wine/drive_c/windows/performance/winsat/datastore
+f .wine/drive_c/windows/regedit.exe
+d .wine/drive_c/windows/resources
+d .wine/drive_c/windows/resources/themes
+d .wine/drive_c/windows/resources/themes/light
+f .wine/drive_c/windows/resources/themes/light/light.msstyles
+f .wine/drive_c/windows/rundll.exe
+d .wine/drive_c/windows/system
+f .wine/drive_c/windows/system/ddeml.dll
+f .wine/drive_c/windows/system/mmsystem.dll
+f .wine/drive_c/windows/system.ini
+d .wine/drive_c/windows/system32
+d .wine/drive_c/windows/system32/catroot
+f .wine/drive_c/windows/system32/c_037.nls
+f .wine/drive_c/windows/system32/c_10000.nls
+f .wine/drive_c/windows/system32/c_10001.nls
+f .wine/drive_c/windows/system32/c_10002.nls
+f .wine/drive_c/windows/system32/c_10003.nls
+f .wine/drive_c/windows/system32/c_10004.nls
+f .wine/drive_c/windows/system32/c_10005.nls
+f .wine/drive_c/windows/system32/c_10006.nls
+f .wine/drive_c/windows/system32/c_10007.nls
+f .wine/drive_c/windows/system32/c_10008.nls
+f .wine/drive_c/windows/system32/c_10010.nls
+f .wine/drive_c/windows/system32/c_10017.nls
+f .wine/drive_c/windows/system32/c_10021.nls
+f .wine/drive_c/windows/system32/c_10029.nls
+f .wine/drive_c/windows/system32/c_10079.nls
+f .wine/drive_c/windows/system32/c_10081.nls
+f .wine/drive_c/windows/system32/c_10082.nls
+f .wine/drive_c/windows/system32/c_1026.nls
+f .wine/drive_c/windows/system32/c_1250.nls
+f .wine/drive_c/windows/system32/c_1251.nls
+f .wine/drive_c/windows/system32/c_1252.nls
+f .wine/drive_c/windows/system32/c_1253.nls
+f .wine/drive_c/windows/system32/c_1254.nls
+f .wine/drive_c/windows/system32/c_1255.nls
+f .wine/drive_c/windows/system32/c_1256.nls
+f .wine/drive_c/windows/system32/c_1257.nls
+f .wine/drive_c/windows/system32/c_1258.nls
+f .wine/drive_c/windows/system32/c_1361.nls
+f .wine/drive_c/windows/system32/c_20127.nls
+f .wine/drive_c/windows/system32/c_20866.nls
+f .wine/drive_c/windows/system32/c_20932.nls
+f .wine/drive_c/windows/system32/c_20949.nls
+f .wine/drive_c/windows/system32/c_21866.nls
+f .wine/drive_c/windows/system32/c_28591.nls
+f .wine/drive_c/windows/system32/c_28592.nls
+f .wine/drive_c/windows/system32/c_28593.nls
+f .wine/drive_c/windows/system32/c_28594.nls
+f .wine/drive_c/windows/system32/c_28595.nls
+f .wine/drive_c/windows/system32/c_28596.nls
+f .wine/drive_c/windows/system32/c_28597.nls
+f .wine/drive_c/windows/system32/c_28598.nls
+f .wine/drive_c/windows/system32/c_28599.nls
+f .wine/drive_c/windows/system32/c_28603.nls
+f .wine/drive_c/windows/system32/c_28605.nls
+f .wine/drive_c/windows/system32/c_437.nls
+f .wine/drive_c/windows/system32/c_500.nls
+f .wine/drive_c/windows/system32/c_708.nls
+f .wine/drive_c/windows/system32/c_720.nls
+f .wine/drive_c/windows/system32/c_737.nls
+f .wine/drive_c/windows/system32/c_775.nls
+f .wine/drive_c/windows/system32/c_850.nls
+f .wine/drive_c/windows/system32/c_852.nls
+f .wine/drive_c/windows/system32/c_855.nls
+f .wine/drive_c/windows/system32/c_857.nls
+f .wine/drive_c/windows/system32/c_860.nls
+f .wine/drive_c/windows/system32/c_861.nls
+f .wine/drive_c/windows/system32/c_862.nls
+f .wine/drive_c/windows/system32/c_863.nls
+f .wine/drive_c/windows/system32/c_864.nls
+f .wine/drive_c/windows/system32/c_865.nls
+f .wine/drive_c/windows/system32/c_866.nls
+f .wine/drive_c/windows/system32/c_869.nls
+f .wine/drive_c/windows/system32/c_874.nls
+f .wine/drive_c/windows/system32/c_875.nls
+f .wine/drive_c/windows/system32/c_932.nls
+f .wine/drive_c/windows/system32/c_936.nls
+f .wine/drive_c/windows/system32/c_949.nls
+f .wine/drive_c/windows/system32/c_950.nls
+d .wine/drive_c/windows/system32/drivers
+f .wine/drive_c/windows/system32/drivers/cng.sys
+d .wine/drive_c/windows/system32/drivers/etc
+f .wine/drive_c/windows/system32/drivers/etc/hosts
+f .wine/drive_c/windows/system32/drivers/etc/networks
+f .wine/drive_c/windows/system32/drivers/etc/protocol
+f .wine/drive_c/windows/system32/drivers/etc/services
+f .wine/drive_c/windows/system32/drivers/fltmgr.sys
+f .wine/drive_c/windows/system32/drivers/hidclass.sys
+f .wine/drive_c/windows/system32/drivers/hidparse.sys
+f .wine/drive_c/windows/system32/drivers/http.sys
+f .wine/drive_c/windows/system32/drivers/ksecdd.sys
+f .wine/drive_c/windows/system32/drivers/mountmgr.sys
+f .wine/drive_c/windows/system32/drivers/ndis.sys
+f .wine/drive_c/windows/system32/drivers/netio.sys
+f .wine/drive_c/windows/system32/drivers/nsiproxy.sys
+f .wine/drive_c/windows/system32/drivers/scsiport.sys
+f .wine/drive_c/windows/system32/drivers/sharedgpures.sys
+f .wine/drive_c/windows/system32/drivers/tdi.sys
+f .wine/drive_c/windows/system32/drivers/usbd.sys
+f .wine/drive_c/windows/system32/drivers/winebus.sys
+f .wine/drive_c/windows/system32/drivers/winehid.sys
+f .wine/drive_c/windows/system32/drivers/winexinput.sys
+d .wine/drive_c/windows/system32/gecko
+d .wine/drive_c/windows/system32/gecko/plugin
+f .wine/drive_c/windows/system32/gecko/plugin/npmshtml.dll
+f .wine/drive_c/windows/system32/locale.nls
+f .wine/drive_c/windows/system32/l_intl.nls
+d .wine/drive_c/windows/system32/mui
+f .wine/drive_c/windows/system32/normidna.nls
+f .wine/drive_c/windows/system32/normnfc.nls
+f .wine/drive_c/windows/system32/normnfd.nls
+f .wine/drive_c/windows/system32/normnfkc.nls
+f .wine/drive_c/windows/system32/normnfkd.nls
+d .wine/drive_c/windows/system32/Speech
+d .wine/drive_c/windows/system32/Speech/Common
+f .wine/drive_c/windows/system32/Speech/Common/sapi.dll
+d .wine/drive_c/windows/system32/Speech/Engines
+d .wine/drive_c/windows/system32/Speech/Engines/TTS
+f .wine/drive_c/windows/system32/Speech/Engines/TTS/msttsengine.dll
+d .wine/drive_c/windows/system32/spool
+d .wine/drive_c/windows/system32/spool/drivers
+d .wine/drive_c/windows/system32/spool/drivers/color
+f .wine/drive_c/windows/system32/spool/drivers/color/srgb color space profile.icm
+d .wine/drive_c/windows/system32/spool/drivers/w32x86
+d .wine/drive_c/windows/system32/spool/drivers/w32x86/3
+f .wine/drive_c/windows/system32/spool/drivers/w32x86/3/wineps.drv
+d .wine/drive_c/windows/system32/spool/drivers/win40
+d .wine/drive_c/windows/system32/spool/drivers/win40/0
+f .wine/drive_c/windows/system32/spool/drivers/win40/0/wineps16.drv
+d .wine/drive_c/windows/system32/spool/drivers/x64
+d .wine/drive_c/windows/system32/spool/drivers/x64/3
+f .wine/drive_c/windows/system32/spool/drivers/x64/3/wineps.drv
+d .wine/drive_c/windows/system32/spool/printers
+d .wine/drive_c/windows/system32/spool/prtprocs
+d .wine/drive_c/windows/system32/spool/prtprocs/w32x86
+f .wine/drive_c/windows/system32/spool/prtprocs/w32x86/wineps.drv
+f .wine/drive_c/windows/system32/spool/prtprocs/w32x86/winprint.dll
+d .wine/drive_c/windows/system32/spool/prtprocs/x64
+f .wine/drive_c/windows/system32/spool/prtprocs/x64/wineps.drv
+f .wine/drive_c/windows/system32/spool/prtprocs/x64/winprint.dll
+d .wine/drive_c/windows/system32/tasks
+d .wine/drive_c/windows/system32/wbem
+f .wine/drive_c/windows/system32/wbem/mofcomp.exe
+f .wine/drive_c/windows/system32/wbem/wbemdisp.dll
+f .wine/drive_c/windows/system32/wbem/wbemprox.dll
+f .wine/drive_c/windows/system32/wbem/wmic.exe
+f .wine/drive_c/windows/system32/wbem/wmiutils.dll
+d .wine/drive_c/windows/system32/WindowsPowerShell
+d .wine/drive_c/windows/system32/WindowsPowerShell/v1.0
+f .wine/drive_c/windows/system32/WindowsPowerShell/v1.0/powershell.exe
+f .wine/drive_c/windows/system32/winevulkan.json
+d .wine/drive_c/windows/syswow64
+f .wine/drive_c/windows/syswow64/c_037.nls
+f .wine/drive_c/windows/syswow64/c_10000.nls
+f .wine/drive_c/windows/syswow64/c_10001.nls
+f .wine/drive_c/windows/syswow64/c_10002.nls
+f .wine/drive_c/windows/syswow64/c_10003.nls
+f .wine/drive_c/windows/syswow64/c_10004.nls
+f .wine/drive_c/windows/syswow64/c_10005.nls
+f .wine/drive_c/windows/syswow64/c_10006.nls
+f .wine/drive_c/windows/syswow64/c_10007.nls
+f .wine/drive_c/windows/syswow64/c_10008.nls
+f .wine/drive_c/windows/syswow64/c_10010.nls
+f .wine/drive_c/windows/syswow64/c_10017.nls
+f .wine/drive_c/windows/syswow64/c_10021.nls
+f .wine/drive_c/windows/syswow64/c_10029.nls
+f .wine/drive_c/windows/syswow64/c_10079.nls
+f .wine/drive_c/windows/syswow64/c_10081.nls
+f .wine/drive_c/windows/syswow64/c_10082.nls
+f .wine/drive_c/windows/syswow64/c_1026.nls
+f .wine/drive_c/windows/syswow64/c_1250.nls
+f .wine/drive_c/windows/syswow64/c_1251.nls
+f .wine/drive_c/windows/syswow64/c_1252.nls
+f .wine/drive_c/windows/syswow64/c_1253.nls
+f .wine/drive_c/windows/syswow64/c_1254.nls
+f .wine/drive_c/windows/syswow64/c_1255.nls
+f .wine/drive_c/windows/syswow64/c_1256.nls
+f .wine/drive_c/windows/syswow64/c_1257.nls
+f .wine/drive_c/windows/syswow64/c_1258.nls
+f .wine/drive_c/windows/syswow64/c_1361.nls
+f .wine/drive_c/windows/syswow64/c_20127.nls
+f .wine/drive_c/windows/syswow64/c_20866.nls
+f .wine/drive_c/windows/syswow64/c_20932.nls
+f .wine/drive_c/windows/syswow64/c_20949.nls
+f .wine/drive_c/windows/syswow64/c_21866.nls
+f .wine/drive_c/windows/syswow64/c_28591.nls
+f .wine/drive_c/windows/syswow64/c_28592.nls
+f .wine/drive_c/windows/syswow64/c_28593.nls
+f .wine/drive_c/windows/syswow64/c_28594.nls
+f .wine/drive_c/windows/syswow64/c_28595.nls
+f .wine/drive_c/windows/syswow64/c_28596.nls
+f .wine/drive_c/windows/syswow64/c_28597.nls
+f .wine/drive_c/windows/syswow64/c_28598.nls
+f .wine/drive_c/windows/syswow64/c_28599.nls
+f .wine/drive_c/windows/syswow64/c_28603.nls
+f .wine/drive_c/windows/syswow64/c_28605.nls
+f .wine/drive_c/windows/syswow64/c_437.nls
+f .wine/drive_c/windows/syswow64/c_500.nls
+f .wine/drive_c/windows/syswow64/c_708.nls
+f .wine/drive_c/windows/syswow64/c_720.nls
+f .wine/drive_c/windows/syswow64/c_737.nls
+f .wine/drive_c/windows/syswow64/c_775.nls
+f .wine/drive_c/windows/syswow64/c_850.nls
+f .wine/drive_c/windows/syswow64/c_852.nls
+f .wine/drive_c/windows/syswow64/c_855.nls
+f .wine/drive_c/windows/syswow64/c_857.nls
+f .wine/drive_c/windows/syswow64/c_860.nls
+f .wine/drive_c/windows/syswow64/c_861.nls
+f .wine/drive_c/windows/syswow64/c_862.nls
+f .wine/drive_c/windows/syswow64/c_863.nls
+f .wine/drive_c/windows/syswow64/c_864.nls
+f .wine/drive_c/windows/syswow64/c_865.nls
+f .wine/drive_c/windows/syswow64/c_866.nls
+f .wine/drive_c/windows/syswow64/c_869.nls
+f .wine/drive_c/windows/syswow64/c_874.nls
+f .wine/drive_c/windows/syswow64/c_875.nls
+f .wine/drive_c/windows/syswow64/c_932.nls
+f .wine/drive_c/windows/syswow64/c_936.nls
+f .wine/drive_c/windows/syswow64/c_949.nls
+f .wine/drive_c/windows/syswow64/c_950.nls
+f .wine/drive_c/windows/syswow64/dsound.vxd
+d .wine/drive_c/windows/syswow64/gecko
+d .wine/drive_c/windows/syswow64/gecko/plugin
+f .wine/drive_c/windows/syswow64/gecko/plugin/npmshtml.dll
+f .wine/drive_c/windows/syswow64/locale.nls
+f .wine/drive_c/windows/syswow64/l_intl.nls
+d .wine/drive_c/windows/syswow64/mui
+f .wine/drive_c/windows/syswow64/normidna.nls
+f .wine/drive_c/windows/syswow64/normnfc.nls
+f .wine/drive_c/windows/syswow64/normnfd.nls
+f .wine/drive_c/windows/syswow64/normnfkc.nls
+f .wine/drive_c/windows/syswow64/normnfkd.nls
+d .wine/drive_c/windows/syswow64/Speech
+d .wine/drive_c/windows/syswow64/Speech/Common
+f .wine/drive_c/windows/syswow64/Speech/Common/sapi.dll
+d .wine/drive_c/windows/syswow64/Speech/Engines
+d .wine/drive_c/windows/syswow64/Speech/Engines/TTS
+f .wine/drive_c/windows/syswow64/Speech/Engines/TTS/msttsengine.dll
+d .wine/drive_c/windows/syswow64/wbem
+f .wine/drive_c/windows/syswow64/wbem/mofcomp.exe
+f .wine/drive_c/windows/syswow64/wbem/wbemdisp.dll
+f .wine/drive_c/windows/syswow64/wbem/wbemprox.dll
+f .wine/drive_c/windows/syswow64/wbem/wmic.exe
+f .wine/drive_c/windows/syswow64/wbem/wmiutils.dll
+d .wine/drive_c/windows/syswow64/WindowsPowerShell
+d .wine/drive_c/windows/syswow64/WindowsPowerShell/v1.0
+f .wine/drive_c/windows/syswow64/WindowsPowerShell/v1.0/powershell.exe
+f .wine/drive_c/windows/syswow64/winevulkan.json
+d .wine/drive_c/windows/tasks
+d .wine/drive_c/windows/temp
+f .wine/drive_c/windows/twain.dll
+d .wine/drive_c/windows/twain_32
+f .wine/drive_c/windows/twain_32/gphoto2.ds
+f .wine/drive_c/windows/twain_32/sane.ds
+f .wine/drive_c/windows/twain_32.dll
+d .wine/drive_c/windows/twain_64
+f .wine/drive_c/windows/twain_64/gphoto2.ds
+f .wine/drive_c/windows/twain_64/sane.ds
+f .wine/drive_c/windows/win.ini
+f .wine/drive_c/windows/winhelp.exe
+f .wine/drive_c/windows/winhlp32.exe
+d .wine/drive_c/windows/winsxs
+d .wine/drive_c/windows/winsxs/amd64_microsoft-windows-msxml30_31bf3856ad364e35_6.0.6000.16386_none_deadbeef
+f .wine/drive_c/windows/winsxs/amd64_microsoft-windows-msxml30_31bf3856ad364e35_6.0.6000.16386_none_deadbeef/msxml3.dll
+d .wine/drive_c/windows/winsxs/amd64_microsoft-windows-msxml60_31bf3856ad364e35_6.0.6000.16386_none_deadbeef
+f .wine/drive_c/windows/winsxs/amd64_microsoft-windows-msxml60_31bf3856ad364e35_6.0.6000.16386_none_deadbeef/msxml6.dll
+d .wine/drive_c/windows/winsxs/amd64_microsoft.msxml2_6bd6b9abf345378f_4.1.0.0_none_deadbeef
+f .wine/drive_c/windows/winsxs/amd64_microsoft.msxml2_6bd6b9abf345378f_4.1.0.0_none_deadbeef/msxml4.dll
+d .wine/drive_c/windows/winsxs/amd64_microsoft.vc80.atl_1fc8b3b9a1e18e3b_8.0.50727.4053_none_deadbeef
+f .wine/drive_c/windows/winsxs/amd64_microsoft.vc80.atl_1fc8b3b9a1e18e3b_8.0.50727.4053_none_deadbeef/atl80.dll
+d .wine/drive_c/windows/winsxs/amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9672_none_deadbeef
+f .wine/drive_c/windows/winsxs/amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9672_none_deadbeef/msvcm80.dll
+f .wine/drive_c/windows/winsxs/amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9672_none_deadbeef/msvcp80.dll
+f .wine/drive_c/windows/winsxs/amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9672_none_deadbeef/msvcr80.dll
+d .wine/drive_c/windows/winsxs/amd64_microsoft.vc90.atl_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef
+f .wine/drive_c/windows/winsxs/amd64_microsoft.vc90.atl_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef/atl90.dll
+d .wine/drive_c/windows/winsxs/amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef
+f .wine/drive_c/windows/winsxs/amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef/msvcm90.dll
+f .wine/drive_c/windows/winsxs/amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef/msvcp90.dll
+f .wine/drive_c/windows/winsxs/amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef/msvcr90.dll
+d .wine/drive_c/windows/winsxs/amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef
+f .wine/drive_c/windows/winsxs/amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef/comctl32.dll
+d .wine/drive_c/windows/winsxs/amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6000.16386_none_deadbeef
+f .wine/drive_c/windows/winsxs/amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6000.16386_none_deadbeef/gdiplus.dll
+d .wine/drive_c/windows/winsxs/amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.23038_none_deadbeef
+f .wine/drive_c/windows/winsxs/amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.23038_none_deadbeef/gdiplus.dll
+d .wine/drive_c/windows/winsxs/manifests
+f .wine/drive_c/windows/winsxs/manifests/amd64_microsoft-windows-msxml30_31bf3856ad364e35_6.0.6000.16386_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/amd64_microsoft-windows-msxml60_31bf3856ad364e35_6.0.6000.16386_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/amd64_microsoft.msxml2_6bd6b9abf345378f_4.1.0.0_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/amd64_microsoft.vc80.atl_1fc8b3b9a1e18e3b_8.0.50727.4053_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9672_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/amd64_microsoft.vc90.atl_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6000.16386_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.23038_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/x86_microsoft-windows-msxml30_31bf3856ad364e35_6.0.6000.16386_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/x86_microsoft-windows-msxml60_31bf3856ad364e35_6.0.6000.16386_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/x86_microsoft.msxml2_6bd6b9abf345378f_4.1.0.0_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/x86_microsoft.vc80.atl_1fc8b3b9a1e18e3b_8.0.50727.4053_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9672_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/x86_microsoft.vc90.atl_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6000.16386_none_deadbeef.manifest
+f .wine/drive_c/windows/winsxs/manifests/x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.23038_none_deadbeef.manifest
+d .wine/drive_c/windows/winsxs/x86_microsoft-windows-msxml30_31bf3856ad364e35_6.0.6000.16386_none_deadbeef
+f .wine/drive_c/windows/winsxs/x86_microsoft-windows-msxml30_31bf3856ad364e35_6.0.6000.16386_none_deadbeef/msxml3.dll
+d .wine/drive_c/windows/winsxs/x86_microsoft-windows-msxml60_31bf3856ad364e35_6.0.6000.16386_none_deadbeef
+f .wine/drive_c/windows/winsxs/x86_microsoft-windows-msxml60_31bf3856ad364e35_6.0.6000.16386_none_deadbeef/msxml6.dll
+d .wine/drive_c/windows/winsxs/x86_microsoft.msxml2_6bd6b9abf345378f_4.1.0.0_none_deadbeef
+f .wine/drive_c/windows/winsxs/x86_microsoft.msxml2_6bd6b9abf345378f_4.1.0.0_none_deadbeef/msxml4.dll
+d .wine/drive_c/windows/winsxs/x86_microsoft.vc80.atl_1fc8b3b9a1e18e3b_8.0.50727.4053_none_deadbeef
+f .wine/drive_c/windows/winsxs/x86_microsoft.vc80.atl_1fc8b3b9a1e18e3b_8.0.50727.4053_none_deadbeef/atl80.dll
+d .wine/drive_c/windows/winsxs/x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9672_none_deadbeef
+f .wine/drive_c/windows/winsxs/x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9672_none_deadbeef/msvcm80.dll
+f .wine/drive_c/windows/winsxs/x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9672_none_deadbeef/msvcp80.dll
+f .wine/drive_c/windows/winsxs/x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9672_none_deadbeef/msvcr80.dll
+d .wine/drive_c/windows/winsxs/x86_microsoft.vc90.atl_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef
+f .wine/drive_c/windows/winsxs/x86_microsoft.vc90.atl_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef/atl90.dll
+d .wine/drive_c/windows/winsxs/x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef
+f .wine/drive_c/windows/winsxs/x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef/msvcm90.dll
+f .wine/drive_c/windows/winsxs/x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef/msvcp90.dll
+f .wine/drive_c/windows/winsxs/x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_deadbeef/msvcr90.dll
+d .wine/drive_c/windows/winsxs/x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef
+f .wine/drive_c/windows/winsxs/x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef/comctl32.dll
+d .wine/drive_c/windows/winsxs/x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6000.16386_none_deadbeef
+f .wine/drive_c/windows/winsxs/x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6000.16386_none_deadbeef/gdiplus.dll
+d .wine/drive_c/windows/winsxs/x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.23038_none_deadbeef
+f .wine/drive_c/windows/winsxs/x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.23038_none_deadbeef/gdiplus.dll
+f .wine/system.reg
+f .wine/user.reg
+f .wine/userdef.reg
