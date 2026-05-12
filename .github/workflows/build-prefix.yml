@@ -1,0 +1,97 @@
+name: Generate Wine Prefix Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      wine_url:
+        description: 'Link to the Wine tar archive'
+        required: true
+        default: 'LINK1'
+      release_tag:
+        description: 'Git tag / release tag to publish under'
+        required: true
+        default: 'wine-prefix'
+      release_name:
+        description: 'Release title'
+        required: false
+        default: 'Wine Prefix'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-prefix:
+    runs-on: ubuntu-24.04-arm
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Download Wine archive
+        run: |
+          mkdir -p /tmp/wine
+          curl -L --fail --retry 3 --retry-delay 2 \
+            '${{ inputs.wine_url }}' \
+            -o /tmp/wine/wine.tar
+
+      - name: Extract Wine archive
+        run: |
+          mkdir -p /tmp/wine/root
+          tar xvf /tmp/wine/wine.tar -C /tmp/wine/root
+          echo 'Extracted contents:'
+          find /tmp/wine/root -maxdepth 2 -type f | head -200
+
+      - name: Run emulator and generate prefix
+        uses: ReactiveCircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          arch: arm64-v8a
+          target: default
+          profile: pixel_6
+          emulator-options: >-
+            -no-window
+            -gpu swiftshader_indirect
+            -noaudio
+            -no-boot-anim
+            -no-snapshot
+          script: |
+            set -ex
+            
+            adb root
+            adb wait-for-device
+            while [ "$(adb shell getprop sys.boot_completed | tr -d '\r')" != "1" ]; do sleep 2; done
+            
+            adb shell 'mkdir -p /data/data/app.gamenative/files'
+            adb push /tmp/wine/root/. /data/data/app.gamenative/files/
+            
+            adb shell 'cd /data/data/app.gamenative/files && chmod +x ./bin/wine ./bin/wineboot ./bin/wineserver 2>/dev/null || true'
+            
+            adb shell 'cd /data/data/app.gamenative/files && export HOME=$PWD && export WINEPREFIX=$PWD/.wine && ./bin/wineboot --init'
+            adb shell 'cd /data/data/app.gamenative/files && export HOME=$PWD && export WINEPREFIX=$PWD/.wine && ./bin/wineserver -w'
+            
+            adb shell 'cd /data/data/app.gamenative/files && tar vcJf /data/local/tmp/wine-prefix.tar .wine'
+            adb pull /data/local/tmp/wine-prefix.tar ./wine-prefix.tar
+
+      - name: Upload prefix artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: wine-prefix
+          path: ./wine-prefix.tar
+
+      - name: Publish GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: ${{ inputs.release_name }}
+          files: |
+            ./wine-prefix.tar
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
